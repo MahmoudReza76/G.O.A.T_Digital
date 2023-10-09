@@ -1,0 +1,13 @@
+.carousel .thumb.selected {
+  border: solid 2px #0cc0df !important;
+}
+.carousel .thumb.selected:hover {
+  border: solid 2px #0cc0df !important;
+}
+.carousel .thumb {
+  border: solid 2px white !important;
+}
+.carousel .slide.selected {
+  background: #0cbfdfe1;
+  background: linear-gradient(90deg, #0cc0df94 0%, #0cc0df1a 100%);
+}
