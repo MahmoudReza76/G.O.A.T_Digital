@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
   transpilePackages: ["react-redux"],
   reactStrictMode: true,
   images: {

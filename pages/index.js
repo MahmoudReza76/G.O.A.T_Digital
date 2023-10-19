@@ -23,7 +23,7 @@ export default function Home({ products }) {
     </main>
   );
 }
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const filePath = path.join(process.cwd(), "data", "products.json");
   const jsonData = await fs.readFile(filePath);
   const data = JSON.parse(jsonData);

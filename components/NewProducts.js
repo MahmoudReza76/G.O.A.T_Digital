@@ -20,8 +20,8 @@ const NewProducts = ({ products }) => {
     },
     mobile: {
       breakpoint: { max: 464, min: 320 },
-      items: 3,
-      slidesToSlide: 3,
+      items: 2,
+      slidesToSlide: 2,
     },
     mini: {
       breakpoint: { max: 320, min: 0 },
@@ -37,7 +37,7 @@ const NewProducts = ({ products }) => {
     <div className="w-[100vw] px-4 h-[60vh] relative  flex justify-center items-center flex-col">
       <div className="w-full flex items-start justify-start ">
         <div className="w-[10rem] h-[6vh] text-center rounded-md top-8 absolute  bg-[#0cc0df] text-white">
-          <h1 className="font-bold md:text-[1rem] pb:text-[0.8rem]">
+          <h1 className="font-bold md:text-[1rem] pb:text-[0.7rem]">
             New Products
           </h1>
         </div>

@@ -25,6 +25,10 @@
 }
 
 /* PRODUCT DETAILS CAROUSEL STYLING CUSTOMIZATION START */
+html,
+body {
+  overflow-x: hidden;
+}
 .productCarousel.carousel-root {
   display: flex;
   flex-direction: row-reverse;
