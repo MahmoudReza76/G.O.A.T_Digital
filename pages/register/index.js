@@ -128,7 +128,7 @@ const SignUpInfo = () => {
       {showSignup ? (
         <form
           onSubmit={handlerSign}
-          className="w-full max-w-[20rem] p-4 border-2 border-[#0cc0df] rounded-2xl shadow-xl bg-[#00000069] flex flex-col gap-2"
+          className="sm:w-full pb:w-[95vw] max-w-[20rem] p-4 border-2 border-[#0cc0df] rounded-2xl shadow-xl bg-[#00000069] flex flex-col gap-2"
         >
           <h1 className="w-full text-center text-[1.2rem] font-bold text-slate-50">
             Signup
@@ -246,7 +246,7 @@ const SignUpInfo = () => {
       ) : (
         <form
           onSubmit={loginUser}
-          className="w-full max-w-[20rem] p-4 border-2 border-[#0cc0df] rounded-2xl shadow-xl bg-[#00000069] flex flex-col gap-2"
+          className="sm:w-full pb:w-[95vw] max-w-[20rem] p-4 border-2 border-[#0cc0df] rounded-2xl shadow-xl bg-[#00000069] flex flex-col gap-2"
         >
           <h1 className="w-full text-center text-[1.2rem] font-bold text-slate-50">
             Login

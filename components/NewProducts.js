@@ -36,14 +36,14 @@ const NewProducts = ({ products }) => {
   return (
     <div className="w-[100vw] px-4 h-[60vh] relative  flex justify-center items-center flex-col">
       <div className="w-full flex items-start justify-start ">
-        <div className="w-[10rem] h-[6vh] text-center rounded-md top-8 absolute  bg-[#0cc0df] text-white">
+        <div className="w-[10rem] h-[6vh] text-center rounded-t-md top-8 absolute  bg-[#0cc0df] text-white">
           <h1 className="font-bold md:text-[1rem] pb:text-[0.7rem]">
             New Products
           </h1>
         </div>
       </div>
       <Carousel
-        className="w-full  pb:[100vw] rounded-lg shadow-lg px-3  h-[38vh] flex justify-between items-center   text-[.6rem] font-bold bg-[#0cc0df] text-center leading-4"
+        className="w-full  rounded-lg shadow-lg px-3  h-[38vh] flex justify-between items-center   text-[.6rem] font-bold bg-[#0cc0df] text-center leading-4"
         responsive={responsive}
       >
         <Link
@@ -51,7 +51,7 @@ const NewProducts = ({ products }) => {
             pathname: `/products/mobile&tablet/${products.mobile[0].title}`,
             query: { ...products.mobile[0] },
           }}
-          className="flex  xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg  bg-white items-center justify-between  flex-col py-2  shadow-lg "
+          className="flex  xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg  bg-white items-center justify-between  flex-col py-2  shadow-lg "
         >
           <Image
             loader={() => products.mobile[0].image1}
@@ -68,7 +68,7 @@ const NewProducts = ({ products }) => {
             pathname: `/products/computers/${products.computer[0].title}`,
             query: { ...products.computer[0] },
           }}
-          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg	"
+          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg	"
         >
           <Image
             loader={() => products.computer[0].image1}
@@ -85,7 +85,7 @@ const NewProducts = ({ products }) => {
             pathname: `/products/televesions/${products.televesion[0].title}`,
             query: { ...products.televesion[0] },
           }}
-          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2 shadow-lg	"
+          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2 shadow-lg	"
         >
           <Image
             loader={() => products.televesion[0].image1}
@@ -99,7 +99,7 @@ const NewProducts = ({ products }) => {
         </Link>
         <Link
           href="/"
-          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg"
+          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg"
         >
           <Image
             loader={() => products.camera[0].image1}
@@ -113,7 +113,7 @@ const NewProducts = ({ products }) => {
         </Link>
         <Link
           href="/"
-          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg	"
+          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg	"
         >
           <Image
             loader={() => products.audio[0].image1}
@@ -127,7 +127,7 @@ const NewProducts = ({ products }) => {
         </Link>
         <Link
           href="/"
-          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-full h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg"
+          className=" flex xl:w-[17vw] lg:w-[18vw] md:w-[20vw] sm:w-[25vw] pb:w-[40vw] h-[30vh] rounded-lg px-2 bg-white items-center justify-between flex-col flex-1 py-2  shadow-lg"
         >
           <Image
             loader={() => products.accessories[0].image1}

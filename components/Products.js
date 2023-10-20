@@ -21,8 +21,8 @@ const Products = ({ products }) => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3,
-      slidesToSlide: 3,
+      items: 2,
+      slidesToSlide: 2,
     },
   };
   const ButtonGroup = (_a) => {
@@ -89,7 +89,7 @@ const Products = ({ products }) => {
                   width={100}
                   height={100}
                 />
-                <h1 className="text-[0.7rem] p-[1rem] text-center leading-4 font-medium">
+                <h1 className="md:text-[0.7rem] pb:text-[0.6rem] p-[1rem] text-center leading-4 font-medium">
                   {items.title}
                 </h1>
                 <p className="text-[.7rem] text-center  font-bold">
@@ -133,7 +133,7 @@ const Products = ({ products }) => {
                   width={100}
                   height={100}
                 />
-                <h1 className="text-[0.7rem] p-[1rem] text-center leading-4 font-medium">
+                <h1 className="md:text-[0.7rem] pb:text-[0.6rem] p-[1rem] text-center leading-4 font-medium">
                   {items.title}
                 </h1>
                 <p className="text-[.7rem] text-center  font-bold">
@@ -180,7 +180,7 @@ const Products = ({ products }) => {
                   width={100}
                   height={100}
                 />
-                <h1 className="text-[0.7rem] p-[1rem] text-center leading-4 font-medium">
+                <h1 className="md:text-[0.7rem] pb:text-[0.6rem] p-[1rem] text-center leading-4 font-medium">
                   {items.title}
                 </h1>
                 <p className="text-[.7rem] text-center  font-bold">
