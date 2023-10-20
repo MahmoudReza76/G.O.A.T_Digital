@@ -49,7 +49,7 @@ const authOptions = {
   debug: process.env.NODE_ENV === "development",
   callbacks: {
     session: async (session, user) => {
-      process.env.NEXTAUTH_URL = "https://g-o-a-t-digital.vercel.app/register";
+      process.env.NEXTAUTH_URL = "http://127.0.0.1:3000/register";
       return session;
     },
   },
